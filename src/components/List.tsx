@@ -14,6 +14,7 @@ const List: React.FunctionComponent<IProps> = ({ people }) => {
             </div>
             <p>{person.age} years old</p>
             <p className="List-note">{person.note}</p>
+            <button className="delete">X</button>
         </li>
            )
         })
